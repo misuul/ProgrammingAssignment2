@@ -47,7 +47,7 @@ cacheSolve <- function(x, ...) {
     inv
 }
 
-## To use, we must first create the special "matrix" xMatrix using 
+## To use, we must first create the special "matrix" object xMatrix using 
 ## the first function: xMatrix <- makeCacheMatrix(x)
 ## then we call cacheSolve(xMatrix)
 ## the first time, it will calculate the inverse
