@@ -52,3 +52,4 @@ cacheSolve <- function(x, ...) {
 ## then we call cacheSolve(xMatrix)
 ## the first time, it will calculate the inverse
 ## if we call it again, it will take it from cache, and show the message
+## if the original matrix changes, we must create the xMatrix object again
